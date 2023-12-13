@@ -1,0 +1,26 @@
+nav {
+    background-color: #55f3ff;
+}
+nav>a {
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    margin: 1rem 3rem 3rem 0;
+    padding: 1rem;
+}
+nav>a:hover {
+    background-color: #55f3ff;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+body {
+    background-color: black;
+    font-family: "superclarendon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    justify-content: space-evenly;
+}
