@@ -8,6 +8,7 @@ nav>a {
     justify-content: center;
     margin: 1rem 3rem 3rem 0;
     padding: 1rem;
+    float:initial
 }
 nav>a:hover {
     background-color: #55f3ff;
@@ -39,6 +40,10 @@ p {
 .white {
     background-color: white;
     color: black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: 5rem;
+    vertical-align: top;
 }
 .center {
     padding: 1rem;
@@ -49,3 +54,34 @@ p {
 ul {
     list-style: square;
 }
+.message {
+    padding: 5rem;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #00709f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "superclarendon", serif;
+    font-weight: 400;
+  }
