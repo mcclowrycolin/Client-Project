@@ -84,3 +84,6 @@ input[type=submit] {
     font-family: "superclarendon", serif;
     font-weight: 400;
   }
+  .about {
+    align-items: center;
+  }
